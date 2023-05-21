@@ -1,6 +1,5 @@
 import os
 from pprint import pprint
-import glob
 
 files_dir = 'work3'
 files = [os.path.join(files_dir, f) for f in os.listdir(files_dir) if f.endswith('.txt')]
